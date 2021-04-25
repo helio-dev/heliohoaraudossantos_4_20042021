@@ -9,8 +9,8 @@ body {
 /*IMG */
 /*logo*/
 .logo-la-chouette-agence{
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    height: 100%;
 
 }
 a,
