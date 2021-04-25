@@ -8,7 +8,7 @@ body {
 }
 /*IMG */
 /*logo*/
-.col-sm-12 img{
+.logo-la-chouette-agence{
     width: 10rem;
     height: 10rem;
 
@@ -781,12 +781,13 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #BB5B38;
 }
-
+/*
 .tc-white {
-    /*
+    
     color: #BB5B38!important;
-    */
+    
 }
+*/
 
 .btn-atomic-tangerine {
     background: #BB5B38;
