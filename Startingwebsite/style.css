@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*IMG */
+/*logo*/
+.col-sm-12 img{
+    width: 10rem;
+    height: 10rem;
 
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1038,7 +1044,6 @@ h4 {
         padding-right: 0;
     }
 }
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
