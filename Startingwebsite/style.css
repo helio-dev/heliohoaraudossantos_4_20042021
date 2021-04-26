@@ -8,6 +8,7 @@ body {
 }
 /*IMG */
 /*logo*/
+
 .logo-la-chouette-agence{
     width: auto;
     height: 100%;
@@ -874,6 +875,9 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    img{
+        width: 100%;
+    }
     .container {
         width: 100%;
     }
