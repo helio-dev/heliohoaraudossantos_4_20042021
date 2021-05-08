@@ -52,9 +52,13 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-
+#bloc-4-portfolio .bloc-lg{
+    display: block;
+}
 .bloc-lg {
     padding: 100px 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-md {
@@ -519,8 +523,12 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-}
 
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -651,7 +659,7 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -734,9 +742,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
-
+h2{
+    color: #FFFFFF;
+}
 h4 {
     color: #333333!important;
 }
