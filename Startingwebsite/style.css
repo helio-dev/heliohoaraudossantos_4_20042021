@@ -55,6 +55,13 @@ a:hover {
 #bloc-4-portfolio .bloc-lg{
     display: block;
 }
+#bloc-7{
+    display: flex;
+    justify-content: center;
+}
+#bloc-7 .bloc-lg{
+    width: 70%;
+}
 .bloc-lg {
     padding: 100px 50px;
     display: flex;
@@ -520,6 +527,11 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -527,7 +539,8 @@ button {
 }
 .form-group{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
 }
 .scrollToTop {
     width: 40px;
@@ -670,7 +683,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
+    /*
     color: #575757!important;
+    */
 }
 
 .container {
@@ -697,6 +712,12 @@ a {
 
 p {
     font-size: 12px;
+}
+.contactadresse{
+    text-align: center;
+}
+.texte-de-contact{
+    color: #FFFFFF;
 }
 
 .tight-width-whitespace {
