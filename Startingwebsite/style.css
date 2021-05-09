@@ -14,6 +14,10 @@ body {
     height: 100%;
 
 }
+.headerindeximg{
+    width: 100%;
+    
+}
 .footer-text{
     text-align: center;
 }
@@ -327,12 +331,16 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+   
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    
+}
+.navbar-brand .imgcontact{
     width: 30%;
 }
 
@@ -366,6 +374,7 @@ a:hover {
 }
 .navbar-nav > li > a {
     margin-right: 10px;
+    padding-top: 30px;
 }
 
 .nav > li a:hover,
@@ -555,6 +564,7 @@ button {
     box-shadow: none;
 
 }
+
 .form-group{
     display: flex;
     flex-direction: column;
@@ -756,10 +766,14 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.citation{
+    color:  hsla(200,0%,0%,.7) ;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -982,6 +996,7 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+       
     }
     .site-navigation {
         position: inherit;
@@ -1108,6 +1123,7 @@ h4 {
         flex-direction: column;
         align-items: center;
     }
+  
     .navbar-nav{
         width: 100%;
         display: flex;
