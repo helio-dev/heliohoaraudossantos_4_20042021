@@ -17,6 +17,9 @@ body {
 .footer-text{
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -358,11 +361,17 @@ a:hover {
 }
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    text-decoration: none;
+
+}
+.navbar-nav > li > a {
+    margin-right: 10px;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: none;
 }
 
 .navbar-toggle {
