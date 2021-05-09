@@ -14,6 +14,9 @@ body {
     height: 100%;
 
 }
+.footer-text{
+    text-align: center;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -327,6 +330,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 30%;
 }
 
 .navbar-brand img[src$=svg] {
@@ -389,8 +393,8 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 20%;
+        right: 40px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -973,6 +977,7 @@ h4 {
         -webkit-transform: none;
         -ms-transform: none;
     }
+/*
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -981,6 +986,7 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
+    */
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
@@ -1010,7 +1016,9 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        
     }
+  
     .navbar-brand img {
         max-height: 40px;
         width: auto;
