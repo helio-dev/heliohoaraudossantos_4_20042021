@@ -415,7 +415,7 @@ a:hover {
 .navbar-togle span {
     width: 10px;
     height: 100px;
-    background-color: red;
+    
 }
 
 .navbar-toggle:hover {
@@ -618,7 +618,7 @@ button {
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    margin: 12px 4px 5px 12px;
 }
 
 .showScrollTop {
