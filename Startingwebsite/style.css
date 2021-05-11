@@ -32,6 +32,7 @@ button {
 }
 .btn {
     text-decoration: none;
+    touch-action: manipulation;
 }
 .social{
     text-decoration: none;
@@ -194,6 +195,10 @@ a:hover {
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(0,0,0,.5);
+    width: 26px;
 }
 
 .d-bloc .btn-wire,
@@ -514,6 +519,9 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
+}
+.btn-d{
+    
 }
 
 button {
