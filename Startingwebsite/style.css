@@ -620,6 +620,9 @@ button {
 .scrollToTop span {
     margin: 12px 4px 5px 12px;
 }
+.fa-chevron-up{
+    margin: 12px 4px 5px 12px;
+}
 
 .showScrollTop {
     font-size: 14px;
