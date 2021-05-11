@@ -22,12 +22,19 @@ body {
     text-align: center;
 }
 a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
+}
+.btn {
+    text-decoration: none;
+}
+.social{
+    text-decoration: none;
 }
 
 a:hover {
