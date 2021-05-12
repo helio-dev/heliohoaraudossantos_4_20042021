@@ -200,7 +200,12 @@ a:hover {
     background-color: rgba(0,0,0,.5);
     width: 26px;
 }
-
+.navbarcontact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -353,9 +358,7 @@ a:hover {
     display: inline;
     
 }
-.navbar-brand .imgcontact{
-    width: 30%;
-}
+
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -427,7 +430,9 @@ a:hover {
     width: 26px;
     height: 2px;
     margin-top: 4px;
+    /*
     display: none;
+    */
 }
 
 .nav-invert .navbar .nav {
@@ -442,6 +447,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    
     .site-navigation {
         position: absolute;
         top: 20%;
@@ -946,6 +952,13 @@ h4 {
         padding-left: 20px;
         padding-right: 20px;
     }
+   
+    .navbar .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -1039,8 +1052,18 @@ h4 {
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
        
     }
+    .navbarcontact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    
     .site-navigation {
         position: inherit;
         transform: none;
@@ -1087,6 +1110,9 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
         
+    }
+    .collapse.in {
+        display: block;
     }
   
     .navbar-brand img {
