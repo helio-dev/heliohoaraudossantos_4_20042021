@@ -1135,6 +1135,11 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        
+        display: block;
+     
+        
+        
     }
     .bloc-sm,
     .bloc-md {
